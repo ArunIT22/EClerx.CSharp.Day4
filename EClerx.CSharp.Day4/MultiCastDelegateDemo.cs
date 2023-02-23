@@ -19,7 +19,7 @@ namespace EClerx.CSharp.Day4
             Console.WriteLine($"Divide Number :{a / b}");
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //Step 2
             CalculateDelegate calcDel = AddNumber;

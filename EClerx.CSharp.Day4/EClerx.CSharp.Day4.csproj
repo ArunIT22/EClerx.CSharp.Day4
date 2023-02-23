@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EClerx.CSharp.Day4.Subscriber</StartupObject>
+    <StartupObject>EClerx.CSharp.Day4.LINQEx</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,10 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DelegateDemo.cs" />
+    <Compile Include="DelegateEnhancements.cs" />
     <Compile Include="EventExample.cs" />
+    <Compile Include="LINQEx.cs" />
     <Compile Include="MultiCastDelegateDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReflectionDemo.cs" />
+    <Compile Include="ThreadVsAsync.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

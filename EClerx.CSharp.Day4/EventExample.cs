@@ -33,7 +33,7 @@ namespace EClerx.CSharp.Day4
             Console.WriteLine("Good Morning. Time to wake up");
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Publisher p = new Publisher();
             p.Alarm += new Publisher.AlarmDelegate(AlarmMessage);

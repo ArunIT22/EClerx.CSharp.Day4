@@ -35,7 +35,7 @@ namespace EClerx.CSharp.Day4
 
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Program program = new Program();
             program.price = 200;

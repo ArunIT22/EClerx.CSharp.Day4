@@ -21,7 +21,7 @@ namespace EClerx.CSharp.Day4
             return a * b;
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             SingleCastDelegateDemo obj = new SingleCastDelegateDemo();
             // obj.AddTwoNumber(1, 2);
